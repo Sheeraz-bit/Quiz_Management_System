@@ -10,17 +10,20 @@ create table quiz(
 create table student(
 	stu_id serial primary key,
 	roll_no int,
-	name varchar(50) not null
+	name varchar(50) not null,
+	stu_time timestamp default current_timestamp
 );
 create table report(
 	report_id serial primary key,
-	stu_id int references student(stu_id),
-	marks int
+	stu_id int not null references student(stu_id),
+	marks int,
+	rep_time timestamp default current_timestamp
 );
-create table responce(
+create table response(
 	res_id serial primary key,
 	report_id int references report(report_id),
-	stu_id int references student(stu_id),
-	quiz_id int references quiz(quiz_id),
-	ans varchar(10) not null
+	stu_id int not null references student(stu_id),
+	quiz_id int not null references quiz(quiz_id),
+	ans varchar(10) not null,
+	res_time timestamp default current_timestamp
 );
