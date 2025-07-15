@@ -16,22 +16,22 @@ A **menu-driven** Java console application that allows students to take quizzes 
 
 ## 📁 Project Structure
 
-src/
-├── App/
-│ └── Main.java
-├── dao/
-│ ├── ExamServices.java
-│ └── Details.java
-├── entity/
-│ ├── Quiz.java
-│ ├── Student.java
-│ ├── Report.java
-│ └── Response.java
-├── util/
-│ └── JPAUtil.java
-resources/
-└── META-INF/
-└── persistence.xml
+- src/
+- ├── App/
+- │ └── Main.java
+- ├── dao/
+- │ ├── ExamServices.java
+- │ └── Details.java
+- ├── entity/
+- │ ├── Quiz.java
+- │ ├── Student.java
+- │ ├── Report.java
+- │ └── Response.java
+- ├── util/
+- │ └── JPAUtil.java
+- resources/
+- └── META-INF/
+- └── persistence.xml
 
 ---
 
