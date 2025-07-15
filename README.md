@@ -56,3 +56,28 @@ resources/
 - `responce (res_id, report_id, stu_id, quiz_id, ans)`
 
 ---
+
+## Group Members
+### Superwiser:
+
+- Name: Jaywanta Kawale
+- Phone: 7028089058
+- Email: jaywanta98@gmail.com
+
+### Github Manager:
+
+- Name: Shaikh Masum 
+- Phone: 
+- Email: 
+
+### Programer: (Group Leader)
+
+- Name: Abdul Nabi Sheeraz
+- Phone: 9022009241
+- Email: sheeraz842122@gmail.com
+
+### Debugger:
+
+- Name: Pathan Faizan
+- Phone: 8767025292
+- Email: pathanfaizan8767@gmail.com
