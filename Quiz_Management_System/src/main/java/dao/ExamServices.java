@@ -78,14 +78,12 @@ public class ExamServices {
             em.persist(stu);
             em.getTransaction().commit();
 
-            // Fetch 10 random questions
             TypedQuery<Quiz> query = em.createQuery("SELECT q FROM Quiz q ORDER BY function('RANDOM')", Quiz.class);
             query.setMaxResults(10);
             List<Quiz> quizList = query.getResultList();
 
             int score = 0;
 
-            // Create a report entry
             Report rep = new Report();
             rep.setStudent(stu);
             rep.setMarks(0); // initially 0
@@ -117,7 +115,6 @@ public class ExamServices {
                 }
             }
 
-            // Update score in report
             em.getTransaction().begin();
             rep.setMarks(score);
             em.merge(rep);
@@ -131,5 +128,5 @@ public class ExamServices {
         } finally {
             em.close();
         }
-    }
+    }// start exam close
 }
