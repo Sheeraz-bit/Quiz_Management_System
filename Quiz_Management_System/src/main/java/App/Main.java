@@ -40,7 +40,6 @@ public class Main {
 
         } while (choice != 3);
 
-        // Close all factories
         JPAUtil.shutdown();
         sc.close();
 		}catch(Exception e){e.printStackTrace();}
