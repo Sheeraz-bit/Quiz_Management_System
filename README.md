@@ -67,8 +67,8 @@ resources/
 ### Github Manager:
 
 - Name: Shaikh Masum 
-- Phone: 
-- Email: 
+- Phone: 8830597819
+- Email: shaikhmasum319051@gmail.com
 
 ### Programer: (Group Leader)
 
